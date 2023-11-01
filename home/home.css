@@ -1,0 +1,49 @@
+button {
+    background: none;
+    color: #000000;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 0.25s;
+}
+
+button:hover {
+    border-color: #006eff;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0.5em 0.5em -0.4em #0b008064;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+body {
+    
+}
+
+nav {
+    position: relative;
+    left: 30px;
+}
+
+.aboutBioInfo {
+    color: red;
+    height: 50px;
+}
+
+.aboutPic {
+    height: 400px;
+}
+
+.mainPicture {
+    height: 1010px;
+    width: 1010px;
+}
+
+#fourImages img {
+    height: 300px;
+    width: 300px;
+}
+
+#fourImages p {
+    transform: translateX(100px);
+    color: red;
+}
